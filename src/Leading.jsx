@@ -27,7 +27,7 @@ let Leading=()=>{
 <section Id="background">
 <h1 className="h11"><span className="h111">w</span>elcome to </h1>
 <h1 className="h12"><span className="h112">s</span>ai clinic</h1>
-<button className="justdial"><a href="https://www.justdial.com/Delhi/Dr-R-K-Garg-Sai-Skin-Centre-Vikaspuri/011PXX11-XX11-130128112726-B3J6_BZDET">Visit Us</a></button>
+<a className="justdial" href="https://www.justdial.com/Delhi/Dr-R-K-Garg-Sai-Skin-Centre-Vikaspuri/011PXX11-XX11-130128112726-B3J6_BZDET">Visit Us</a>
 <h1 className="h16"><marquee>note down mobile number : <span Id="spanation"> 98714-38960</span> MBBS, MD</marquee></h1>
 <h1 className="h14"><marquee>skin, hair, nail and gupt rog</marquee><marquee>family physician</marquee></h1>
 </section>

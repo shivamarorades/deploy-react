@@ -6,7 +6,7 @@ text-decoration: none;
 list-style-type:none;
 font-family: 'Ubuntu', sans-serif;
 position:relative;
-
+font-variant:unset;
 }
 .whitte{
   color:white;
@@ -174,6 +174,46 @@ animation-name: myanimation;
 animation-duration: 3s;
 animation-timing-function: ease-in-out;
 }
+.justdial{
+  text-decoration:none;
+  color:rgb(233, 233, 233);
+  border:1px solid teal;
+  background-color:transparent;
+  padding:20px;
+  position:absolute;
+  top:60%;
+  text-transform:capitalize;
+  font-variant:small-caps;
+  width:300px;
+  left:3%;
+transition:0.45s;
+font-size:30px;
+}
+.justdial a{
+  
+letter-spacing:3px;
+  text-transform:capitalize;
+  font-variant:small-caps;
+  transition:0.45s;
+}
+.justdial:active{
+  
+  background-image:linear-gradient(to left, teal,skyblue,hotpink);
+  
+}
+a:active{
+color:teal;
+}
+.justdial:visited{
+  background-color:blueviolet;
+}
+.justdial:hover{
+  
+background-color:teal;
+}
+a:hover{
+  letter-spacing:5px;
+}
 #background{
 background-image:url('Skin-Care-Sen1.png');
 background-repeat: no-repeat;
@@ -188,9 +228,8 @@ position:relative;
   position:absolute;
   bottom:65%;
   text-transform:capitalize;
-  font-variant:small-caps;
-  font-size:80px;
-  color:white;
+    font-size:80px;
+  color:rgb(218, 218, 218);
   left:2%;
   letter-spacing:2px;
   animation-name:saiclinic;
@@ -198,23 +237,23 @@ position:relative;
   
 }
 .h12{
-  font-variant:small-caps;
+
   letter-spacing:2px;
   font-weight:100;
 
     position:absolute;
-    bottom:25%;
+    bottom:50%;
     left:2%;
     text-transform:capitalize;
     font-size:80px;
-    color:white;
+    color:rgb(218, 218, 218);
 animation-name:saiclinic;
 animation-duration: 5s;
 
   }
 
   .h111{
-    font-variant:small-caps;
+    
     letter-spacing:4px;
     font-weight:100;
   
@@ -227,7 +266,7 @@ animation-duration: 5s;
   
     }
     .h112{
-      font-variant:small-caps;
+    
       letter-spacing:4px;
       font-weight:100;
     

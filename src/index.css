@@ -1,13 +1,465 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  scroll-behavior: smooth;
+  margin:0;
+padding:0;
+text-decoration: none;
+list-style-type:none;
+font-family: 'Ubuntu', sans-serif;
+position:relative;
+
+}
+.whitte{
+  color:white;
+  font-size:30px;
+  text-transform:capitalize;
+  font-variant:small-caps;
+  text-align:center;
+}
+.logo{
+  color:white;
+  font-variant:small-caps;
+  font-size:40px;
+  text-transform:capitalize;
+  float:left;
+  position:absolute;
+
+  top:29%;
+}
+nav{
+  background-image:linear-gradient(to left,teal,rgb(22, 56, 56));
+padding:50px;
+box-shadow:10px 5px 20px gray;
+position:relative;
+
+}
+ul{
+  display:flex;
+  justify-content: space-around;
+width:60%;
+text-align:justify;
+position:absolute;
+right:0%;
+transform:translateY(50%);
+}
+a{
+  color:white;
+  text-transform:uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-variant:bold;
+transition:0.45s;
+}
+nav ul li a:hover{
+color: rgb(245, 241, 17);
+letter-spacing:4px;
+}
+#section1{
+  font-size:82px;
+  color:white;
+  font-stretch: expanded;
+text-align:center;
+letter-spacing:2px;
+text-transform:capitalize;
+font-variant: small-caps;
+background-image:linear-gradient(to left,teal,rgb(22, 56, 56));
+animation-name: myanimation;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+}
+.header2{
+  color:gray;
+}
+#blogger{
+  background-image:linear-gradient(to left,rgb(108, 213, 255),rgb(255, 255, 255));
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.div2{
+  background-color:rgb(255, 255, 255);
+  width:54%;
+  height:400px;
+  box-shadow:10px 5px 10px gray;
+  background-image:linear-gradient(to left,teal,rgb(22, 56, 56));
+}
+
+
+.div3{
+  background-color:rgb(255, 255, 255);
+  width:54%;
+  height:400px;
+  box-shadow:10px 5px 10px gray;
+float:right;
+background-image:linear-gradient(to left,teal,rgb(22, 56, 56));
+}
+
+.div4{
+  background-color:rgb(255, 255, 255);
+  width:54%;
+  height:400px;
+  box-shadow:10px 5px 10px gray;
+float:left;
+background-image:linear-gradient(to left,teal,rgb(22, 56, 56));
+
+}
+
+.div5{
+  background-color:rgb(255, 255, 255);
+  width:54%;
+  height:400px;
+  box-shadow:20px 5px 10px gray;
+float:right;
+background-image:linear-gradient(to left,teal,rgb(22, 56, 56));
+
+}
+.div6{
+  background-color:rgb(255, 255, 255);
+  width:54%;
+  height:400px;
+  box-shadow:10px 5px 10px gray;
+  float:left;
+  background-image:linear-gradient(to left,teal,rgb(22, 56, 56));
+}
+@keyframes myanimation{
+  from{
+    margin:4px;
+  color:white;
+
+  }
+  to{
+    margin:auto;
+color:black;
+
+  }
+}
+.div{
+  display:flex;
+
+}
+#section2{
+  color:white;  
+  font-size:82px;
+  font-stretch: expanded;
+text-align:center;
+letter-spacing:2px;
+text-transform:capitalize;
+font-variant: small-caps;
+background-image:linear-gradient(to left,teal,rgb(22, 56, 56));
+
+animation-name: myanimation;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+}
+#section3{
+  font-size:82px;
+  font-stretch: expanded;
+text-align:center;
+letter-spacing:2px;
+text-transform:capitalize;
+font-variant: small-caps;
+color:white;
+background-image:linear-gradient(to left,teal,rgb(22, 56, 56));
+animation-name: myanimation;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+}
+#section4{
+  font-size:82px;
+  font-stretch: expanded;
+text-align:center;
+letter-spacing:2px;
+text-transform:capitalize;
+font-variant: small-caps;
+
+background-image:linear-gradient(to left,teal,rgb(22, 56, 56));
+color:white;
+animation-name: myanimation;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+}
+#background{
+background-image:url('Skin-Care-Sen1.png');
+background-repeat: no-repeat;
+
+background-size:100% 100%;
+width:100%;
+height:500px;
+position:relative;
+
+}
+.h11{
+  position:absolute;
+  bottom:65%;
+  text-transform:capitalize;
+  font-variant:small-caps;
+  font-size:80px;
+  color:white;
+  left:2%;
+  letter-spacing:2px;
+  animation-name:saiclinic;
+  animation-duration: 5s;
+  
+}
+.h12{
+  font-variant:small-caps;
+  letter-spacing:2px;
+  font-weight:100;
+
+    position:absolute;
+    bottom:25%;
+    left:2%;
+    text-transform:capitalize;
+    font-size:80px;
+    color:white;
+animation-name:saiclinic;
+animation-duration: 5s;
+
+  }
+
+  .h111{
+    font-variant:small-caps;
+    letter-spacing:4px;
+    font-weight:100;
+  
+      
+      text-transform:capitalize;
+      font-size:80px;
+      color:teal;
+  animation-name:saiclinic;
+  animation-duration: 5s;
+  
+    }
+    .h112{
+      font-variant:small-caps;
+      letter-spacing:4px;
+      font-weight:100;
+    
+        
+        text-transform:capitalize;
+        font-size:80px;
+        color:teal;
+    animation-name:saiclinic;
+    animation-duration: 5s;
+    
+      }
+@keyframes saiclinic{
+from {
+ transform:translateY(5.5rem);
+  letter-spacing:-20px;
+}
+to{
+  letter-spacing:2px;
+  transform:rotate(360deg);
+}
+}
+img{
+  position:absolute;
+  left:0%;
+  top:23%;
+filter:invert(1);
+}
+.h14{
+  background-image:linear-gradient(to left,teal,rgb(22, 56, 56));
+  position:absolute;
+  bottom:0%;
+  width:100%; 
+color:white;
+font-variant:lowercase;
+text-transform:capitalize;
+}
+.h16{
+  
+  position:absolute;
+  top:0%;
+  width:100%; 
+color:white;
+font-variant:lowercase;
+text-transform:capitalize;
+}
+.ol2{
+  color:gray;
+  text-align:left;
+  text-transform:capitalize;
+  font-variant:small-caps;
+  margin-top:10px;
+background-color:white;
+width:140px;
+border-radius:0 20px 0 0;
+border:1px solid transparent;
+
+}
+.ol1{
+  color:gray;
+  text-align:left;
+  text-transform:capitalize;
+  font-variant:small-caps;
+  margin-top:10px;
+background-color:white;
+width:140px;
+border-radius:0 20px 0 0;
+border:1px solid transparent;
+
+}
+.ol5{
+  color:gray;
+  text-align:left;
+  text-transform:capitalize;
+  font-variant:small-caps;
+  margin-top:10px;
+background-color:white;
+width:140px;
+border-radius:0 20px 0 0;
+border:1px solid transparent;
+
+}
+.ol4{
+  color:gray;
+  text-align:left;
+  text-transform:capitalize;
+  font-variant:small-caps;
+  margin-top:10px;
+background-color:white;
+width:140px;
+border-radius:0 20px 0 0;
+border:1px solid transparent;
+
+}
+.ol3{
+  color:gray;
+  text-align:left;
+  text-transform:capitalize;
+  font-variant:small-caps;
+  margin-top:10px;
+background-color:white;
+width:140px;
+border-radius:0 20px 0 0;
+border:1px solid transparent;
+
+}
+.last{
+  position:relative;
+}
+footer{
+  margin-top:34px;
+
+  height:350px;
+  color:rgb(255, 255, 255);
+  border:1px solid black;
+  background-image:linear-gradient(to left,teal,rgb(22, 56, 56));
+}
+#spanation{
+  animation-name:number;
+  animation-duration: 0.43s;
+  background-color:rgb(185, 218, 207);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes number{
+  from {
+   color:red;
+  }
+  to{
+    color:blue;
+  }
+  }
+.articles{
+  background-image:linear-gradient(to left,rgb(35, 39, 39),rgb(22, 56, 56));
+  margin-top:837px;
+  height:500px;
+  color:white;
+}
+.childartic{
+font-size:100px;
+color:white;
+text-align:center;
+}
+.foot{
+  text-align:center;
+  text-transform:capitalize;
+font-variant:small-caps;
+margin-top:10px;
+}
+.parentartic{
+  
+  color:gray;
+  position:relative;
+  
+}
+table{
+  width:1260px;
+
+text-transform:capitalize;
+font-variant:small-caps;
+font-size:16px;
+}
+.val1{
+  background-color:rgb(185, 218, 207);
+  
+  color:rgb(43, 40, 40);
+  position:absolute;
+  right:50%;
+text-transform:capitalize;
+font-variant:small-caps;
+  font-size:30px;
+  border:1px solid transparent;
+  border-radius:20px;
+}
+.val2{
+  background-color:rgb(185, 218, 207);
+  color:black;
+  float:right;
+  position:absolute;
+  right:30%;
+  box-shadow:20px 5px 10px solid gray;
+  border:1px solid transparent;
+  border-radius:5px;
+width:200px;  
+text-transform:capitalize;
+font-variant:small-caps;
+}
+.divider{
+  position:relative;
+}
+.h192{
+    height:0px;
+    text-transform:capitalize;
+    font-variant:small-caps;
+     
+}
+marquee{
+  background-image:linear-gradient(to left,teal,rgb(22, 56, 56));
+  color:whitesmoke;
+}
+.logo21{
+ width:200%;
+  margin-top:20px;
+  
+  height:200px;
+  
+}
+.th2{
+  display:block;
+
+  
+text-transform:capitalize;
+font-variant:small-caps;
+justify-items: center;
+}
+.th1{
+  float:right;
+  display:block;
+  
+text-transform:capitalize;
+font-variant:small-caps;
+}
+tr{
+
+  
+text-transform:capitalize;
+font-variant:small-caps;
+}
+td{
+  
+  border-bottom:1px solid white;
+  
+text-transform:capitalize;
+font-variant:small-caps;
 }

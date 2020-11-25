@@ -9,6 +9,8 @@ import Notification from './Notification.jsx';
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import './index2.css';
 
+
+
 ReactDOM.render(
 <>
 <Navbar />
@@ -17,7 +19,5 @@ ReactDOM.render(
 <Flexboxes />
 <Notification  />
 <Footer />
-
 </>
-
     ,document.getElementById('root'));

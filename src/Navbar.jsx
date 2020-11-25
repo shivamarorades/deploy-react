@@ -3,7 +3,10 @@ import logo from './Skin-Care-Sen.png';
 console.log(logo);
 let Navbar=()=>{
 
-    
+  window.addEventListener("scroll", function(){
+    var nav=document.querySelector("nav");
+    nav.classList.toggle("sticky", window.scrollY > 0);
+  })
 return (<>
 <nav className="navbar navbar-expand-lg navbar-dark blur fixed-top nav2 trans" >
 <img className="filt" src={logo} width="30" height="30" alt="bonelogo"/>

@@ -52,3 +52,6 @@
 nav{
   backdrop-filter: blur(20px);
 }
+.color22:hover,.back{
+  background-color: rgb(36, 103, 248);
+}

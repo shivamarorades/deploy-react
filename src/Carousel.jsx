@@ -3,19 +3,19 @@ import React from 'react';
 let Carousel=()=>{
     return (
 <>
-<div className="jumbotron  text-light   cover  ">
+<div className="jumbotron  text-light   cover  " style={{borderRadius:"5  0px",border:"1px solid transparent"}}>
    
-   <div className="container ">
-      <h1 className="display-3">Hello,<br/> My name is<br/>DR R.K Garg</h1>
-      <p>This is a template for a simple marketing or informational website.<br/> It includes a large callout called a jumbotron and three supporting<br/> pieces of content. Use it as a starting point to <br/>create something more unique.</p>
+   <div className="container " >
+      <h1 className="display-3 " >Hello,<br/> My name is<br/>DR R.K Garg</h1>
+      <p>Dr. R K Garg (Sai Skin Centre) in Delhi. Dermatologists with Address,<br/> Contact Number, Photos, Maps. View Dr. R K Garg (Sai Skin Centre),<br/> pieces of content. Use it as a starting point to <br/>to give your health a time  Delhi on Justdial.</p>
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Book appointment now</button>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header text-dark">
-        <h5 class="modal-title " id="exampleModalLabel">Your Details Below :</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<div class="modal fade "  id="exampleModal" tabindex="-2" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" >
+    <div class="modal-content ">
+      <div class="modal-header" >
+        <h5 class="modal-title text-dark" id="exampleModalLabel">select what you are looking for</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
           <span aria-hidden="true">&times;</span>
         </button>
       </div>

@@ -3,7 +3,7 @@
     padding:0px;
     outline-style:none;
     box-sizing:border-box;
-
+    scroll-behavior: smooth;
   }
 .filt{
     filter: invert(1);

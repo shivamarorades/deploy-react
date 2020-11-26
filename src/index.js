@@ -6,6 +6,7 @@ import Businessinfo from './Businessinfo.jsx';
 import Footer from './Footer.jsx';
 import Flexboxes from './Flexboxes.jsx';
 import Notification from './Notification.jsx';
+
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import './index2.css';
 

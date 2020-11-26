@@ -14,11 +14,12 @@
 
   }
   .cover2{
+    backdrop-filter: blur(10px);
   }
   .cover{
     background-image:url("cover.jpg");
     background-size:100% 100%;
-    background-attachment: fixed;
+
  
   
   }
@@ -41,6 +42,13 @@
     background-color: rgb(117, 116, 117);
   }
   nav.sticky{
-    
+
     backdrop-filter: blur(10px);
+    background-color: rgb(7, 5, 15);    
+   box-shadow:5px 4px 40px BLACK;
+    transition:4s;
+   
   }
+nav{
+  backdrop-filter: blur(20px);
+}

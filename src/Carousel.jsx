@@ -3,7 +3,7 @@ import React from 'react';
 let Carousel=()=>{
     return (
 <>
-<div className="jumbotron  text-light trans  cover blur content">
+<div className="jumbotron  text-light trans  cover blur content cover2">
    
    <div className="container ">
       <h1 className="display-3">Hello,<br/> My name is<br/>DR R.K Garg</h1>

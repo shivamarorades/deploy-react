@@ -3,7 +3,7 @@ import React from 'react';
 let Carousel=()=>{
     return (
 <>
-<div className="jumbotron  text-light   cover  " style={{borderRadius:"5  0px",border:"1px solid transparent"}}>
+<div className="jumbotron  text-light   cover  " style={{borderRadius:"50px",border:"1px solid transparent"}}>
    
    <div className="container " >
       <h1 className="display-3 " >Hello,<br/> My name is<br/>DR R.K Garg</h1>

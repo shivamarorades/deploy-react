@@ -12,9 +12,12 @@ import './index2.css';
 
 
 
+
 ReactDOM.render(
 <>
+
 <Navbar />
+
 <Carousel />
 <Businessinfo />
 <Flexboxes />

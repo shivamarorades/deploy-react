@@ -46,7 +46,8 @@
     backdrop-filter: blur(10px);
     background-color: rgb(7, 5, 15);    
    box-shadow:5px 4px 40px BLACK;
-    transition:4s;
+    transition:0.45s all linear;
+    padding:20px 100px ;
    
   }
 nav{

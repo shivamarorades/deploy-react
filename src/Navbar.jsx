@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './Skin-Care-Sen.png';
+
 console.log(logo);
 let Navbar=()=>{
 
@@ -8,7 +9,7 @@ let Navbar=()=>{
     nav.classList.toggle("sticky", window.scrollY > 0);
   });    
 return (<>
-<nav className="navbar navbar-expand-lg navbar-dark blur fixed-top nav2 trans" >
+<nav className="navbar navbar-expand-lg navbar-dark blur fixed-top nav2 trans " >
 <img className="filt" src={logo} width="30" height="30" alt="bonelogo"/>
 <span class="navbar-brand mb-0 h1 ">Skin Specialist</span>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

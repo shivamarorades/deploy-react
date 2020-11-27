@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.filt {
+  filter: invert(1);
+}
+.trans {
+  background: rgba(0, 0, 0, 0.5);
+}
+.cover2 {
+  backdrop-filter: blur(10px);
+}
+.cover {
+  background-image: url("Images/cover.jpg");
+  background-size: 100% 100%;
+}
+.contents-fitting {
+  position: relative;
+  left: 20%;
+}
+
+.colors {
+  background-color: rgb(18, 15, 22);
+}
+
+.colors2 {
+  background-color: rgb(7, 5, 15);
+}
+.colors3 {
+  background-color: rgb(166, 120, 250);
+}
+.colors4 {
+  background-color: rgb(117, 116, 117);
+}
+nav.sticky {
+  backdrop-filter: blur(10px);
+  background-color: rgb(7, 5, 15);
+  box-shadow: 5px 4px 40px BLACK;
+  transition: 0.45s all linear;
+  padding: 20px 100px;
+}
+nav {
+  backdrop-filter: blur(20px);
+}
+.color22:hover,
+.back {
+  background-color: rgb(36, 103, 248);
+}

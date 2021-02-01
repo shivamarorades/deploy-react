@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline-style: none;
+  box-sizing: border-box;
+      scroll-behavior: smooth;
+
+letter-spacing: 2px;
+font-weight: 400;
+}
+.margins{
+	transform:translateY(4em);
+	
+	
+}
+#Business-color{
+}
+.losvell{
+	list-style-type: circle;
+
+}
